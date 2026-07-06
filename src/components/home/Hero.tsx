@@ -76,7 +76,10 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <motion.div style={{ opacity }} className="relative z-10 container-premium w-full">
+      <motion.div
+        style={{ opacity }}
+        className="relative z-10 container-premium w-full lg:pt-20 xl:pt-24"
+      >
         <div className="max-w-3xl">
           {/* Tagline */}
           <motion.div
